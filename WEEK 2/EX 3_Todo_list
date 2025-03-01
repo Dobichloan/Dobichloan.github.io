@@ -5,8 +5,12 @@
     <title>To do list </title>
 </head>
 <body>
-    <p>Today's to do list:</p>
-    <p>Monday, September 19th,2024</p>
+    <p>
+        <strong>Today's to do list:</strong>
+    </p>
+    <p>
+        <strong>Monday, September 19th,2024</strong>
+    </p>
     <ol> type="1"
         <li> Write a blog post </li>
         <li> Go to the bank </li>
