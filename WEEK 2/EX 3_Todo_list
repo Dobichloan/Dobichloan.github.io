@@ -5,9 +5,9 @@
     <title>To do list </title>
 </head>
 <body>
-    <p>
-        <strong>Today's to do list:</strong>
-    </p>
+    <div class="my-list">
+        <h1> Today's to do list </h1>
+    </div>
     <p>
         <strong>Monday, September 19th,2024</strong>
     </p>
