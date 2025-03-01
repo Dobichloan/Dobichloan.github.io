@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Today's to do list</h1>
+        </div>
+        <p class="date">
+            Monday, September 19th
+        </p>
+        <ol class="task-list">
+            <li>Write a blog post</li>
+            <li>Go to the bank</li>
+            <li>Study for exams</li>
+            <li>Renew web hosting account and domain name</li>
+            <li>Learn something new</li>
+            <li>Update project log</li>
+        </ol>
+    </div>
+</body>
+</html>
