@@ -6,11 +6,11 @@
     <title>ToDoList</title>
 </head>
 <body>
-    <h1>To Do List</h1>
-    <br>
-    <p>Today's to do list</p>
+    <h1> To Do List</h1>
+    <break>
+    <p1>Today's to do list</p1>
     <p>Monday, September 19th</p>
-    <br>
+    <break>
     <ol>
         <li>Write a blog post</li>
         <li>Go to a bank</li>
