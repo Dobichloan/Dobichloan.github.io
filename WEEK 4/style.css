@@ -1,0 +1,49 @@
+body > header{
+    font-size: large;
+    font-weight: bold;
+}
+
+article > header{
+    font-size: medium;
+    font-weight: bold;
+}
+article >p{
+    font-size: small;
+    font-weight: italic;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    background: #444;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 24px;
+    padding: 0;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+article header:hover {
+    color: pink;
+    font-size: large;
+}
+
+tieu_de_phu{
+    font-style: italic;
+} 
