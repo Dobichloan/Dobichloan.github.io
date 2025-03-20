@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
 }
@@ -57,6 +57,7 @@ main h1{
 main h2{
     font-size: 30px;
     font-weight: bold;
+    background-color: #e05409c4;
 }
 main tieu_de_phu {
     font-size: 20px;
