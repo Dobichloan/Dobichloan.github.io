@@ -1,0 +1,74 @@
+body {
+    Width: 960px; 
+    Center the body 
+    font-family: Arial, sans-serif; 
+    Text Color: #fcfcfc; 
+    Background: #355664;
+}
+Headings {
+    Font-family: forte, Arial, sans-serif;
+}
+h1 {
+    Text size: 50px; 
+    Padding: 10px 0 0; 
+    Center the text 
+}
+h2 {
+    Text size: 40px; 
+    Letter spacing: 15px; 
+    Center the text 
+    Border at the bottom: 3px solid #416371; 
+    Padding at the bottom: 20px; 
+}
+h3 {
+    Text Align: right; 
+    Text size: 30px; 
+    Font-weight: normal; 
+    Margin: 0 0 10px; 
+}
+p {
+    line-height: 20px;
+    Padding bottom: 5px;
+    Text Color: #94c258;
+}
+Images {
+    Width: 500px; 
+    Height: 300px; 
+    Border: None; 
+}
+Div with class = "article-content" {
+    Margin: 15px 0;
+}
+Navigation {
+    Background: #355664; 
+    Padding-right and Left: 5px; 
+    Padding-top and Bottom: 0px;
+} 
+Hyperlinks {
+    Text Color: #ffffff; 
+    Text Color: #7CB3E9; 
+    Text Color: #8EC45B; 
+    Margin: 5px 2px; 
+    Padding: 7px 10px 4px; 
+    Text Size: 30px;
+}
+Article {
+    Height: 390px; 
+    Background: #213E4A; 
+    Padding: 20px; 
+    Margin: 0 0 10px; 
+}
+Figure {
+    Border: 3px solid #142830; 
+    Float: right; 
+    Height: 300px; 
+    Width: 500px; 
+    Margin left: 15px; 
+}  
+Footer {
+    Border at top: 3px solid #142830; 
+    Padding Top: 15px; 
+    Margin Bottom: 30px; 
+    Center the text 
+    Text size: 20px;
+}
