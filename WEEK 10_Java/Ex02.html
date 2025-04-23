@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex02</title>
+    <!--JavaScript -->
+<script src="script.js">
+        var txta = prompt ("Enter number A");
+        var txtb = prompt ("Enter number B");
+        if(txta == null || txtb == "" || isNaN(txta)) {
+            alert("Number A is forrmatted incorrect");
+        } else if (txtb == null || txtb == "" || isNaN(txtb)) {
+            alert("Number B is forrmatted incorrect");
+        } else {
+            var result = parseFloat(txta) + parseFloat(txtb);
+            alert("result:\n" +
+                txta + " + " + txtb + " = " + result);
+        }
+</script>
+</head>
+<body>   
+</body>
+</html>
