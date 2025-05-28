@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Form</title>
+  <style>
+    form {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 10px;
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      font-family: sans-serif;
+    }
+
+    .full {
+      grid-column: 1 / 3;
+      text-align: center;
+      color: green;
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="myForm">
+    <label>Full Name:</label>
+    <input type="text" id="name">
+
+    <label>Email:</label>
+    <input type="text" id="email">
+
+    <label>Subscription:</label>
+    <div>
+      <input type="radio" name="sub" value="monthly"> Monthly
+      <input type="radio" name="sub" value="yearly"> Yearly
+    </div>
+
+    <label>Interests:</label>
+    <div>
+      <input type="checkbox" value="news"> News
+      <input type="checkbox" value="offers"> Offers
+    </div>
+
+    <div id="message" class="full"></div>
+
+    <button type="submit" class="full">Submit</button>
+  </form>
+
+  <script>
+    const form = document.getElementById("myForm");
+    const message = document.getElementById("message");
+
+    form.onsubmit = function(event) {
+      event.preventDefault(); 
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      if (name.length < 3) {
+        message.textContent = "Name must be at least 3 letters.";
+        message.className = "full error";
+        return;
+      }
+      if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+        message.textContent = "Email must be valid.";
+        message.className = "full error";
+        return;
+      }
+      message.textContent = "Form submitted successfully!";
+      message.className = "full";
+      form.reset();
+    };
+  </script>
+
+</body>
+</html>
+

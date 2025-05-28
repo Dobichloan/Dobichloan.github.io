@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MID</title>
+</head>
+<body>
+    <form action="The element">
+        <label for="">
+            Full name:
+            <input type="text" name="Full name" id="Name" placeholder="Fill your name" required  minlength="3">
+            
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Email:
+            <input type="email" name="Email" id="email" placeholder="Fill your Email" required>
+            <input type="email" pattern="@">
+        </label>
+        <br>
+        <br>
+        <label for="" required class="type">
+            Subscription type:
+            <input type="button" value="Monthly">
+            <input type="button" value="Yearly">
+        </label>
+        <br>
+        <br>
+        <label for="" required class="interests">
+            Interests: 
+            <input type="checkbox" name="Reading" id="Read"> Reading
+            <input type="checkbox" name="Musicing" id="Music"> Musicing
+            <input type="checkbox" name="Watching TV" id="Watch">Watching
+        </label>
+        <br>
+        <br>
+        <input type="button" value="Send">      
+    </form>
+<script>
+    var a = parseFloat(document.getElementById('Name').value)
+    var b = parseFloat(document.getElementById('Email').value)
+    var c = parseFloat(document.getElementsByClassName('type').value)
+    var d = parseFloat(document.getElementsByClassName('interests').value)
+</script>
+</body>
+</html>
